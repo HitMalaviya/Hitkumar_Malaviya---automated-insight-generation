@@ -1,0 +1,48 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables & secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Assignment PDF (not needed in repo)
+*.pdf
+
+# Misc
+*.log
+.agents/

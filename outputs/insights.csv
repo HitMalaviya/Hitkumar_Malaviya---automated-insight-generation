@@ -1,0 +1,13 @@
+insight_id,type,indicator,entity,period,value,prev_value,change_pct,severity,explanation
+INS-0001,trend,anc_coverage,Ahmedabad,2026-08,69.0,85.0,-18.82,High,"Anc Coverage in Ahmedabad dropped by 18.8% (from 85 in 2026-07 to 69 in 2026-08), exceeding the 10% threshold."
+INS-0002,trend,high_risk_cases,Ahmedabad,2026-08,13.0,10.0,30.0,High,"High Risk Cases in Ahmedabad increased by 30.0% (from 10 in 2026-07 to 13 in 2026-08), exceeding the 10% threshold."
+INS-0003,trend,high_risk_cases,Bhavnagar,2026-08,15.0,17.0,-11.76,Low,"High Risk Cases in Bhavnagar dropped by 11.8% (from 17 in 2026-07 to 15 in 2026-08), exceeding the 10% threshold."
+INS-0004,trend,anc_coverage,Mehsana,2026-08,42.0,84.0,-50.0,High,"Anc Coverage in Mehsana dropped by 50.0% (from 84 in 2026-07 to 42 in 2026-08), exceeding the 10% threshold."
+INS-0005,trend,high_risk_cases,Mehsana,2026-08,28.0,11.0,154.55,High,"High Risk Cases in Mehsana increased by 154.5% (from 11 in 2026-07 to 28 in 2026-08), exceeding the 10% threshold."
+INS-0006,trend,high_risk_cases,Vadodara,2026-08,6.0,7.0,-14.29,Medium,"High Risk Cases in Vadodara dropped by 14.3% (from 7 in 2026-07 to 6 in 2026-08), exceeding the 10% threshold."
+INS-0007,outlier,anc_coverage,Ahmedabad,2026-08,69.0,78.33,-11.91,Low,"Ahmedabad's anc coverage of 69 in 2026-08 is below lower bound [69.9, 92.9] and 0.7σ below state mean (78.3), flagging for review."
+INS-0008,outlier,anc_coverage,Mehsana,2026-08,42.0,78.33,-46.38,High,"Mehsana's anc coverage of 42 in 2026-08 is below lower bound [69.9, 92.9] and 2.8σ below state mean (78.3), flagging for review."
+INS-0009,outlier,immunization,Vadodara,2026-08,97.0,91.58,5.91,Low,"Vadodara's immunization of 97 in 2026-08 is above upper bound [86.0, 96.0] and 1.9σ above state mean (91.6), flagging for review."
+INS-0010,outlier,high_risk_cases,Mehsana,2026-08,28.0,13.42,108.7,High,"Mehsana's high risk cases of 28 in 2026-08 is above upper bound [4.4, 21.4] and 2.6σ above state mean (13.4), flagging for review."
+INS-0011,correlation,anc_coverage:high_risk_cases,All Districts,2026-07..2026-08,-0.93,,-0.93,High,Strong negative correlation (r=-0.93) observed between anc coverage and high risk cases across districts (fragile sample: N=12).
+INS-0012,correlation,institutional_delivery:immunization,All Districts,2026-07..2026-08,0.98,,0.98,High,Strong positive correlation (r=0.98) observed between institutional delivery and immunization across districts (fragile sample: N=12).
